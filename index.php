@@ -9,6 +9,7 @@ werkdag applicatie <br>
 <?php
 
 require 'functies_beschikbaarheidsprikker.php';
+toon_website_header("welkomspagina","Alle gebruikers");
 
 $db_verbinding = verbinding_maken_met_database();
 
