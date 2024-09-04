@@ -44,4 +44,12 @@ function toon_website_footer(){
     
     }
 
-?>
+    
+    
+    ?>
+
+    <script>
+function zie_beschikbaarheidsmogelijkheden(){
+    alert();
+}
+</script>

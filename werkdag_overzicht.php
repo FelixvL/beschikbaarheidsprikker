@@ -25,7 +25,8 @@ while($row = $result -> fetch_assoc()){
     echo "<tr>";
     echo "<td>".beslis_dikgedrukt(krijg_path_variabele("gebid"), $row["id"], $row["voornaam"])."</td>";
     for($x = 0; $x < $days; $x++){
-        echo "<td>x</td>";
+        echo "<td><button onclick=\"zie_beschikbaarheidsmogelijkheden()\">X</button></td>";
+        
     }
     echo "</tr>";
 }
