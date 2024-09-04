@@ -20,6 +20,11 @@ $result = selecteer_alles_van_tabel("gebruiker", $db_verbinding);
 echo "<table class=\"table\">";
 $date = new DateTime();
 $days = $date->format('t');
+echo "<tr><th>Naam</th>";
+ for ($y = 1; $y < $days+1; $y++){
+   echo "<th>$y</th>";
+ }
+echo "</tr>";
 
 while($row = $result -> fetch_assoc()){
     if($_GET["gebid"]==$row["id"]){
