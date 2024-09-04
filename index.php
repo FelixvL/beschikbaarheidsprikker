@@ -2,7 +2,7 @@ werkdag applicatie <br>
 
 <script>
     function naarGebruiker(p){
-        window.open("werkdag_overzicht.php?gebid="+p);
+        window.open("werkdag_overzicht.php?gebid="+p); // door een parameter mee te geven pakt ie de gebruiker van de button
     }
     </script>
 
